@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+}
+.main {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.signup {
+	  text-align: right;
+}
+
+.add-user{
+  width: 500px;
+  margin: auto;
+}

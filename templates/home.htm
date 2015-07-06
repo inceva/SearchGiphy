@@ -1,0 +1,16 @@
+<div class="search-box main">
+    <h1>Search Giphy</h1>
+    <img class="giphy-logo" id="logo-image" src="http://giphy.com/static/img/giphy_logo_laser.gif" width="54" height="60" alt="Giphy – Search Animated GIFs">
+    </br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><img class="giphy-logo" id="logo-image" src="http://giphy.com/static/img/giphy_logo_laser.gif"  height="20px" alt="Giphy – Search Animated GIFs"></span>
+       <form ng-submit="search()">
+      <input type="text" class="form-control" placeholder="Search Text" aria-describedby="basic-addon1" ng-model="searchData" autofocus>
+           </form>
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click='search()'>Go!</button>
+      </span>
+    </div>
+    </br></br>
+    <p class="lead">Use this site to search giphy for random .gif files. Authentication Required so click "Sign Up" to get started.</p>
+</div>
